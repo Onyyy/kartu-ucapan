@@ -1,0 +1,51 @@
+* {
+    font-family: 'Satisfy', cursive;
+}
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffff9b;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.container-item-ketupat {
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px;
+    row-gap: 4px;
+    column-gap: 4px;
+    justify-content: center;
+    transform: rotate(45deg);
+    margin-bottom: 10px;
+    padding: 100px;
+}
+
+.item {
+    background-color: #0aa30a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:nth-child(even) {
+    background-color: #72be21;
+}
+
+.ucapan {
+    font-size: 24px;
+}
+
+.ucapan-item {
+    display: grid;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.ucapan-bawah {
+    margin-top: -28px;
+}
